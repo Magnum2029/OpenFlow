@@ -1,0 +1,23 @@
+﻿# Variaveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Banco de dados
+instance/*.db
+*.sqlite3
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ambiente virtual
+.venv/
+venv/
+
+# Testes
+.pytest_cache/
+
+# Backups
+*.bundle
